@@ -6,6 +6,7 @@
 # Выведите общее время звучания трех случайных песен в формате
 # Три песни звучат ХХХ минут
 
+import random
 
 my_favorite_songs = [
     ['Waste a Moment', 3.03],
@@ -19,7 +20,13 @@ my_favorite_songs = [
     ['In This World', 4.02],
 ]
 
-print(my_favorite_songs)
+
+
+songs_time = random.choice(my_favorite_songs)
+
+print(songs_time)
+
+
 
 
 
