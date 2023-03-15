@@ -20,9 +20,11 @@ my_favorite_songs = [
     ['In This World', 4.02],
 ]
 
+res = []
+for obj in my_favorite_songs:
+    res += [elem for elem in obj]
 
-
-songs_time = random.choice(my_favorite_songs)
+songs_time = random.choice(res)
 
 print(songs_time)
 
