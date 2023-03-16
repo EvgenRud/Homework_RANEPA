@@ -24,9 +24,9 @@ my_favorite_songs = random.sample(my_favorite_songs, 3)
 
 my_favorite_songs = list(my_favorite_songs)
 
-my_favorite_songs = my_favorite_songs[0][1] + my_favorite_songs[1][1]  + my_favorite_songs[2][1]
+songs_time = my_favorite_songs[0][1] + my_favorite_songs[1][1]  + my_favorite_songs[2][1]
 
-print(my_favorite_songs)
+print(songs_time)
 
 
 # Пункт B. 
