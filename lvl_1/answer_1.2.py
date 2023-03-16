@@ -46,6 +46,22 @@ my_favorite_songs_dict = {
     'In This World': 4.02,
 }
 
+# Сортируем словарь по значениям и получаем список
+
+my_sorted = sorted(my_favorite_songs_dict.values())
+
+# Кладём 3 рандомные значения в список
+
+my_sorted = random.sample(my_sorted, 3)
+
+# Складываем песни (по индексам)
+
+songs_time_dict = my_sorted[0] + my_sorted[1] + my_sorted[2]
+
+print(f'Три песни звучат {songs_time_dict} минут')
+
+
+
 # Дополнительно для пунктов A и B
 # Пункт C.
 # Сгенерируйте случайные песни с помощью модуля random
