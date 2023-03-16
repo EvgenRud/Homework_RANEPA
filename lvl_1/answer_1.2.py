@@ -20,21 +20,13 @@ my_favorite_songs = [
     ['In This World', 4.02],
 ]
 
-res = []
-for obj in my_favorite_songs:
-    res += [elem for elem in obj]
+my_favorite_songs = random.sample(my_favorite_songs, 3)
 
-songs_time = random.choice(res)
+my_favorite_songs = list(my_favorite_songs)
 
-print(songs_time)
+my_favorite_songs = my_favorite_songs[0][1] + my_favorite_songs[1][1]  + my_favorite_songs[2][1]
 
-
-
-
-
-
-
-
+print(my_favorite_songs)
 
 
 # Пункт B. 
