@@ -26,7 +26,7 @@ my_favorite_songs = list(my_favorite_songs)
 
 songs_time = my_favorite_songs[0][1] + my_favorite_songs[1][1]  + my_favorite_songs[2][1]
 
-print(songs_time)
+print(f'Три песни звучат {songs_time} минут')
 
 
 # Пункт B. 
