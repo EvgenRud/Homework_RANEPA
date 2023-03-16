@@ -1,4 +1,4 @@
-# Задача 1.3.
+# Решение задачи 1.3.
 
 # Напишите скрипт, который принимает от пользователя номер месяца, 
 # а возвращает количество дней в нем.
@@ -15,3 +15,15 @@
 
     # Введите номер месяца: 15
     # Такого месяца нет!
+
+
+number = int(input('Введите номер месяца: '))
+if number == 4 or number == 6 or number == 9 or number == 11:
+    print('30')
+if number == 2:
+    print('28')
+if number == 1 or number == 3 or number == 5 or number == 7 or number == 8:
+    print('31')
+
+if number < 1 or number > 12:
+    print('Такого месяца нет')
