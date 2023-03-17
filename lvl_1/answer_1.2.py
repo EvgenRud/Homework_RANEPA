@@ -26,7 +26,7 @@ my_favorite_songs = list(my_favorite_songs)
 
 songs_time = my_favorite_songs[0][1] + my_favorite_songs[1][1]  + my_favorite_songs[2][1]
 
-print(f'Три песни звучат {songs_time} минут')
+print(f'Три песни звучат {songs_time:.2f} минут')
 
 
 # Пункт B. 
@@ -58,7 +58,7 @@ my_sorted = random.sample(my_sorted, 3)
 
 songs_time_dict = my_sorted[0] + my_sorted[1] + my_sorted[2]
 
-print(f'Три песни звучат {songs_time_dict} минут')
+print(f'Три песни звучат {songs_time_dict:.2f} минут')
 
 
 
